@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+		<servlet-name>hello_servlet1</servlet-name>
+		<servlet-class>add_Nov_4.Input</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hello_servlet1</servlet-name>
+		<url-pattern>/welcom</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>hello_servlet2</servlet-name>
+		<servlet-class>add_Nov_4.Add</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hello_servlet2</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+</web-app>
