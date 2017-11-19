@@ -13,6 +13,7 @@ public class Add extends GenericServlet{
 	@Override
 	public void service(ServletRequest arg0, ServletResponse arg1) throws ServletException, IOException {
 		
+		System.out.println("service method called");
 		String no1 = arg0.getParameter("no1");
 		int num1=Integer.parseInt(no1);
 		
